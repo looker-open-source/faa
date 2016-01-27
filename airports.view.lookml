@@ -109,6 +109,10 @@
   - dimension: state
     type: string
     sql: ${TABLE}.state
+    
+  - dimension: state_city
+    type: string
+    sql: ${TABLE}.state || '-' || ${TABLE}.city
 
   - measure: count
     type: count
