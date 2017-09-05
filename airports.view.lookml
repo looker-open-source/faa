@@ -112,7 +112,7 @@
     
   - dimension: state_city
     type: string
-    sql: ${TABLE}.state || '-' || ${TABLE}.city
+    sql: concat(${TABLE}.state, ' ', ${TABLE}.city)
 
   - measure: count
     type: count

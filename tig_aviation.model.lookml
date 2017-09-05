@@ -1,4 +1,4 @@
-- connection: faa-tig
+- connection: faa
 
 - include: "*.view.lookml"       # include all the views
 - include: "*.dashboard.lookml"  # include all the dashboards
@@ -6,6 +6,7 @@
 - explore: accidents
 
 - explore: aircraft
+  fields: [aircraft_engines_types.whatever,aircraft_engines_types.whatever2]
   joins:
     - join: aircraft_types
       type: left_outer 
