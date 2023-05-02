@@ -4,7 +4,7 @@ connection: "faa"
 include: "/views/**/*.view"
 
 # include all the dashboards
-include: "/dashboards/**/*.dashboard"
+# include: "/dashboards/**/*.dashboard"
 
 explore: accidents {}
 
