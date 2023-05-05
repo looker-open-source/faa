@@ -2,7 +2,7 @@
   title: product tests
   layout: newspaper
   description: ''
-  preferred_slug: 9RczcO1GEUXx6Qy0MwsoeT
+  preferred_slug: product_tests
   elements:
   - name: Test
     title: Test
