@@ -1,4 +1,4 @@
-connection: "faa"
+connection: "faa-drstrangelove"
 
 # include all the views
 include: "/views/**/*.view"
